@@ -1,0 +1,5 @@
+<h2>Liste des Spécialités</h2>
+<div *ngFor="let specialite of specialites">
+  <img [src]="specialite._image" alt="Image Spécialité" width="500" height="300">
+  <p>Libelle: {{ specialite._libelle }}</p>
+</div>

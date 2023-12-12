@@ -1,0 +1,6 @@
+<h2>Liste des Étudiants</h2>
+<div *ngFor="let etudiant of etudiants">
+  <img [src]="etudiant._image" alt="Image Étudiant" width="500" height="300">
+  <p>Nom: {{ etudiant._nom }}</p>
+  <p>Prénom: {{ etudiant._prenoms }}</p>
+</div>
